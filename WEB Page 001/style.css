@@ -133,23 +133,26 @@
 /* Footer style code */
 .footer{
     display: flex;
+    column-gap: 10px;
 }
 .footer .card{
     display: flex;
     column-gap: 3rem;
     flex-basis: 33%;
-    height: 40px;
 }
 .footer .card-data{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
 }
+.footer .card .image img{
+    height: 200px;
+}
 .footer .card .card-data h1{
     color: #b1b1b1;
 }
 .footer .card .card-data h2{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
     cursor: pointer;
 }
